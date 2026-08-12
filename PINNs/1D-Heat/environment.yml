@@ -1,0 +1,17 @@
+name: pinns-practice
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.14
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - ipykernel
+  - pip:
+      - torch --index-url https://pytorch.org
+      - torchvision
+      - torchaudio
+      - sympy
+      - deepxde
